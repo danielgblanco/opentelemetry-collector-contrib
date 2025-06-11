@@ -406,6 +406,7 @@ body:
       description: Any additional information you think may be relevant to this issue.
   - type: textarea
     attributes:
+      label: ""
       description: Please leave this sub-heading as is to help the community interact with this issue.
       value: |
             <sub>**Tip**: React with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to helps us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
