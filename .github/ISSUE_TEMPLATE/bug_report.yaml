@@ -404,11 +404,9 @@ body:
     attributes:
       label: Additional context
       description: Any additional information you think may be relevant to this issue.
-  - type: textarea
+  - type: dropdown
     attributes:
-      label: ""
-      description: Please leave this sub-heading as is to help the community interact with this issue.
-      value: |
-            <sub>**Tip**: React with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to helps us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
-    validations:
-      required: true
+      label: "How to interact with this issue"
+      description: This element is used to render a message for end-users and community members to help prioritize issues.
+      options:
+         - <sub>**Tip**: React with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to helps us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
