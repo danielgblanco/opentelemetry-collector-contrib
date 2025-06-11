@@ -404,13 +404,11 @@ body:
     attributes:
       label: Additional context
       description: Any additional information you think may be relevant to this issue.
-  - type: checkboxes
+  - type: textarea
     attributes:
-      label: Participation Tip
-      description: Check this box to include the following tip and let end-users and the community help interact with this issue.
-      options:
-        - label: |
+      label: Participation Sub-Heading
+      description: Please leave this sub-heading as is to help the community interact with this issue.
+      value: |
             <sub>**Tip**: React with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to helps us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
-          required: true
     validations:
       required: true
